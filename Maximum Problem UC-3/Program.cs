@@ -31,7 +31,7 @@ namespace Maximum_Problem_UC_3
             }
             else
             {
-                Console.WriteLine("The 3rd String is the greatest among three = " + str3);
+                Console.WriteLine("The 3rd String is the greatest among three. = " + str3);
             }
         }
     }
