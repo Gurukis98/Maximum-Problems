@@ -42,7 +42,7 @@ namespace Maximum_Problem_UC_5
                 }
                 else
                 {
-                    Console.WriteLine("The 4rd Number is the greatest among four = " + num4);
+                    Console.WriteLine("The 4rd Number is the greatest among four. = " + num4);
                 }
             }
         }
