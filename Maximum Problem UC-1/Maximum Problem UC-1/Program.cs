@@ -30,7 +30,7 @@ namespace Maximum_Problem_UC_1
             }
             else
             {
-                Console.WriteLine("The 3rd Number is the greatest among three. = " + num3);
+                Console.WriteLine("The 3rd Number is the greatest among three = " + num3);
             }
         }
     }
