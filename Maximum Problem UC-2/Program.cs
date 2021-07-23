@@ -6,6 +6,11 @@ namespace Maximum_Problem_UC_2
     {
         public static void Main(string[] args)
         {
+            FloatMethod();
+        }
+
+        private static void FloatMethod()
+        {
             Console.WriteLine("Enter the Value of Num1");
             float num1 = float.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Value of Num2");
@@ -30,7 +35,7 @@ namespace Maximum_Problem_UC_2
             }
             else
             {
-                Console.WriteLine("The 3rd Number is the greatest among three. = " + num3);
+                Console.WriteLine("The 3rd Number is the greatest among three = " + num3);
             }
         }
     }
