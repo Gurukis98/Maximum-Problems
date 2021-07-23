@@ -6,6 +6,11 @@ namespace Maximum_Problem_UC_3
     {
         public static void Main(string[] args)
         {
+            StringMethod();
+        }
+
+        private static void StringMethod()
+        {
             string str1 = "Apple";
             string str2 = "Peach";
             string str3 = "Banana";
@@ -31,7 +36,7 @@ namespace Maximum_Problem_UC_3
             }
             else
             {
-                Console.WriteLine("The 3rd String is the greatest among three. = " + str3);
+                Console.WriteLine("The 3rd String is the greatest among three = " + str3);
             }
         }
     }
