@@ -6,6 +6,11 @@ namespace Maximum_Problem_UC_1
     {
         public static void Main(string[] args)
         {
+            IntegerMethod();
+        }
+
+        private static void IntegerMethod()
+        {
             Console.WriteLine("Enter the Value of Num1");
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the Value of Num2");
